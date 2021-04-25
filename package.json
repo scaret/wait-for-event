@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "name": "wait-for-event",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development webpack-cli --watch",
+    "build": "NODE_ENV=production webpack-cli",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scaret/wait-for-event.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scaret/wait-for-event/issues"
+  },
+  "homepage": "https://github.com/scaret/wait-for-event#readme"
+}
